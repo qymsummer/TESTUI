@@ -1,0 +1,3 @@
+2020-04-28 14:57:26  [ main:0 ] - [ DEBUG ]  Case.TestNgCase.test01(TestNgCase.java:25)mainCase.TestNgCase邮箱信息
+2020-04-28 15:25:02 - [ DEBUG ]  Case.TestNgCase.test01(TestNgCase.java:25)-main-Case.TestNgCase-邮箱信息-
+2020-04-28 15:25:04 - [ ERROR ]  Case.TestNgCase.test02(TestNgCase.java:33)-main-Case.TestNgCase-错误的email-

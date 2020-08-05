@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UI" parallel="tests" thread-count="1" preserve-order="true">
+    <test name="UI">
+        <classes>
+            <class name="test.SeleniumMaven"></class>
+        </classes>
+    </test>
+
+
+    <!--添加测试报告监听器-->
+
+</suite>

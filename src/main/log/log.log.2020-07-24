@@ -1,0 +1,13 @@
+2020-07-24 10:08:04 - [ DEBUG ]  Case.TestNgCase.test01(TestNgCase.java:36)-main-Case.TestNgCase-邮箱信息-
+2020-07-24 10:08:06 - [ ERROR ]  Case.TestNgCase.test02(TestNgCase.java:44)-main-Case.TestNgCase-错误的email-
+2020-07-24 14:09:50 - [ DEBUG ]  Case.TestNgCase.test01(TestNgCase.java:42)-main-Case.TestNgCase-邮箱信息-
+2020-07-24 14:09:52 - [ ERROR ]  Case.TestNgCase.test02(TestNgCase.java:50)-main-Case.TestNgCase-错误的email-
+2020-07-24 14:11:43 - [ DEBUG ]  Case.TestNgCase.test01(TestNgCase.java:42)-main-Case.TestNgCase-邮箱信息-
+2020-07-24 14:11:44 - [ ERROR ]  Case.TestNgCase.test02(TestNgCase.java:50)-main-Case.TestNgCase-错误的email-
+2020-07-24 14:21:25 - [ DEBUG ]  Case.TestNgCase.test01(TestNgCase.java:42)-main-Case.TestNgCase-邮箱信息-
+2020-07-24 14:21:27 - [ ERROR ]  Case.TestNgCase.test02(TestNgCase.java:50)-main-Case.TestNgCase-错误的email-
+2020-07-24 14:22:31 - [ DEBUG ]  Case.TestNgCase.test01(TestNgCase.java:42)-main-Case.TestNgCase-邮箱信息-
+2020-07-24 14:22:33 - [ ERROR ]  Case.TestNgCase.test02(TestNgCase.java:50)-main-Case.TestNgCase-错误的email-
+2020-07-24 14:23:07 - [ DEBUG ]  Case.TestNgCase.test01(TestNgCase.java:42)-main-Case.TestNgCase-邮箱信息-
+2020-07-24 14:23:08 - [ ERROR ]  Case.TestNgCase.test02(TestNgCase.java:50)-main-Case.TestNgCase-错误的email-
+2020-07-24 14:23:36 - [ DEBUG ]  Case.TestNgCase.sendEmail(TestNgCase.java:37)-main-Case.TestNgCase-发送成功-
