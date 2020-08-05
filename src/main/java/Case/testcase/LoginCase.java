@@ -56,7 +56,7 @@ public class LoginCase {
     }
     @Test
     public void testLoginEmailError() throws IOException, InterruptedException {
-        logger.debug("开始执行第二个case");
+        logger.debug("开始执行第三个case");
         loginHandle.SendEmail("1231231");
         loginHandle.SendPassWord("qym11456788");
         //loginHandle.clickSenven();
