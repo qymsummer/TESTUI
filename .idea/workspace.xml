@@ -6,20 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0842a8f4-74ab-4fe9-864c-3884a760d372" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Case/handle/LoginHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Case/handle/LoginHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Case/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Case/page/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Case/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Case/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Case/testcase/LoginCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Case/testcase/LoginCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/log/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/log/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/element.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/element.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Case/handle/LoginHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Case/handle/LoginHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Case/page/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Case/page/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Case/page/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Case/page/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Case/testcase/LoginCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Case/testcase/LoginCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/element.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/element.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vincent_player_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/vincent_player_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testng01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng01.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +76,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginCase (2)">
+  <component name="RunManager" selected="TestNG.C:/uitest/src/main/resources/testng01.xml">
+    <configuration name="C:/uitest/src/main/resources/testng01.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="uitest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng01.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginCase (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uitest" />
       <extension name="coverage">
@@ -105,23 +105,6 @@
       </method>
     </configuration>
     <configuration name="LoginCase (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="uitest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Case.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Case.testcase" />
-      <option name="MAIN_CLASS_NAME" value="Case.testcase.LoginCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginCase (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uitest" />
       <extension name="coverage">
         <pattern>
@@ -174,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/uitest/src/main/resources/testng01.xml" />
         <item itemvalue="TestNG.LoginCase (2)" />
         <item itemvalue="TestNG.LoginCase (1)" />
         <item itemvalue="TestNG.LoginCase (5)" />
         <item itemvalue="TestNG.LoginCase" />
-        <item itemvalue="TestNG.LoginCase (4)" />
       </list>
     </recent_temporary>
   </component>
