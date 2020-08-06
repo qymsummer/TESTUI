@@ -1,6 +1,5 @@
 package Case.testcase;
 
-import Case.TestNgCase;
 import Case.handle.LoginHandle;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -27,19 +26,19 @@ public class LoginCase {
     static Logger logger = Logger.getLogger(LoginCase.class);
     public WebDriver driver;
     LoginHandle loginHandle;
-    @BeforeMethod
-    public void beforeClass() throws InterruptedException {
+    @BeforeClass
+    public void beforeClass() throws InterruptedException, IOException {
         PropertyConfigurator.configure("C:\\uitest\\src\\main\\resources\\log4j.properties");
         logger.debug("初始化浏览器");
         driver = new ChromeDriver();
         logger.debug("打开浏览器");
         driver.get("https://www.imooc.com");
-        Thread.sleep(2000);
-        driver.findElement(By.id("js-signin-btn")).click();
         loginHandle = new LoginHandle(driver);
+        Thread.sleep(2000);
+        loginHandle.ClickSiginButton();
         Thread.sleep(3000);
     }
-    @AfterMethod
+    @AfterClass
     public void afterClass() throws InterruptedException {
         driver.close();
     }

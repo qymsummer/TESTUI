@@ -16,7 +16,7 @@ import java.io.IOException;
  */
 public class BasePage {
     public WebDriver driver;
-    static Logger logger = Logger.getLogger(LoginCase.class);
+    static Logger logger = Logger.getLogger(BasePage.class);
     public BasePage(WebDriver driver){
         this.driver = driver;
     }

@@ -43,4 +43,8 @@ public class LoginPage extends BasePage{
         return getElement("userinfo");
     }
 
+    public WebElement getSigninButtonElement() throws IOException, InterruptedException {
+        return getElement("signinbutton");
+    }
+
 }
